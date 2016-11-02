@@ -2,7 +2,7 @@ import getDataFromStore from './modules/store';
 import pubsub from './modules/pubsub';
 import todoApp from './modules/todoApp';
 
-(function() {
+window.onload = () => {
   // repopulate todos from localStorage on page load
   const todosStore = localStorage.getItem('todos');
 
@@ -34,4 +34,4 @@ import todoApp from './modules/todoApp';
   }, false );
 
   app.render();
-}());
+};
