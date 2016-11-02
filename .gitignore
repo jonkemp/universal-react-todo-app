@@ -2,3 +2,4 @@ node_modules
 babel_cache
 errorShots
 *.jar
+src/public/js/*
