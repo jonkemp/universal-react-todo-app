@@ -1,9 +1,10 @@
-var express = require('express');
-var router = express.Router();
+import Express from 'express';
+
+const router = Express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index');
+  res.render('index', { todos: [] });
 });
 
 module.exports = router;
