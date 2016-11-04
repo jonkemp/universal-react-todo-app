@@ -33,7 +33,7 @@
     "babel-loader": "^6.2.5",
     "babel-register": "^6.14.0",
     "eslint": "^3.4.0",
-    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-react": "^6.5.0",
     "http-server": "^0.9.0",
     "mocha": "^3.0.2",
     "wdio-mocha-framework": "^0.4.3",
