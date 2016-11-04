@@ -7,18 +7,8 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <h3>TODO List</h3>
 
-    <form id="todo-form">
-      <input id="update" type="text" value="" />
-      <button type="submit">Add Item</button>
-    </form>
-
-    <ol id="todos">
-      <% todos.forEach(function(item){ %>
-        <%- include('item', { item: item }) %>
-      <% }); %>
-    </ol>
+    <div id="app"></div>
 
     <script src="/js/bundle.js"></script>
   </body>
