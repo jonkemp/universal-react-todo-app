@@ -3,9 +3,9 @@ import TodoList from './todoList';
 
 export default React.createClass({
   getInitialState() {
-    return {items: [], text: ''};
+    return {items: ['One', 'Two', 'Three'], text: ''};
   },
-  
+
   onChange(e) {
     this.setState({text: e.target.value});
   },
