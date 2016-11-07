@@ -1,19 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
-import TodoForm from './components/todoForm';
+import ReactDOM from 'react-dom';
+import AppRoutes from './components/AppRoutes';
 
-const TodoApp = React.createClass({
-  render() {
-    return (
-      <div>
-        <h3>TODO List</h3>
-        <TodoForm />
-      </div>
-    );
-  }
-});
-
-render(
-  <TodoApp />,
-  document.getElementById('app')
-);
+window.onload = () => {
+  ReactDOM.render(<AppRoutes/>, document.getElementById('app'));
+};

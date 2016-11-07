@@ -1,10 +1,11 @@
-import Express from 'express';
+import React from 'react';
+import { Route, IndexRoute } from 'react-router';
+import IndexPage from '../components/indexPage';
 
-const router = Express.Router();
+const routes = (
+  <Route path="/">
+    <IndexRoute component={IndexPage}/>
+  </Route>
+);
 
-/* GET home page. */
-router.get('/', function(req, res) {
-  res.render('index', { todos: [] });
-});
-
-module.exports = router;
+export default routes;
