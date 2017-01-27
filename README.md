@@ -1,11 +1,8 @@
 # React.js Universal Todo App Example
 
-**DISCLAIMER**
-
-This example app contains no Universal JavaScript or React at this point. However, these are on the roadmap soon. I wanted to track changes from the initial version of the app, which uses only client-side JS without frameworks.
-
 ### Features
 
+* React
 * ES2015
 * Babel
 * Webpack
